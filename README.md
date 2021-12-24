@@ -9,7 +9,7 @@ Example_Script.R - A script with examples of how to use the data
 ## Data Overview:
 
 The data can be found at the following dropbox link:
-https://www.dropbox.com/s/q44jhan4kalyohe/Pitcher_Motion_Data.csv?dl=0
+https://www.dropbox.com/sh/gxxxnqu9c1v0d6w/AAA8Ilsel7YB3_uYn03_k7Vba?dl=0
 
 This is a csv file of about 400 MB.
 
