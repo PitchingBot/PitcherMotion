@@ -44,6 +44,9 @@ There are also some other variables which are left over from the pitcher identif
 
 ##### Example_Script.R is an R script which shows how to use this data in some simple examples
 
+
+## Acknowledgements:
+
 Thanks to [baseballsavant](https://baseballsavant.mlb.com) and MLB for making video highlights easily available online, which was essential to collect data on this scale.
 
 Also thanks to Will McNally for KAPAO, all pose detection was done using this algorithm, implemented in python. 
