@@ -3,8 +3,8 @@ Pose tracking data for baseball pitchers
 
 ##### Contains:
 ReadMe.md - A short overview of the data and how to use it
-Example_Script.R - A script with examples of how to use the data
 
+Example_Script.R - A script with examples of how to use the data
 
 ## Data Overview:
 
@@ -31,11 +31,17 @@ Detection of the pitcher was done automatically based on their position in the f
 Columns V1 to V51 describe the positions of the pitcher's body parts in pixels. Each body part is described by three columns, the horizontal and vertical coordinates are the first two, I'm not sure what the third is but I've left it in the dataset. The order is always left first then right, moving down along the body
 
 V1-V15 are points on the head
+
 V16-V21 are the shoulders
+
 V22-V27 are the elbows
+
 V28-V33 are the hands
+
 V34-V39 are the hips
+
 V40-V45 are the knees
+
 V46-V51 are the feet
 
 The vertical components are the number of pixels from the *top* of the image, so you need to take (720 - variable) of these to get the correct position on the image.
@@ -50,6 +56,7 @@ There are also some other variables which are left over from the pitcher identif
 Thanks to [baseballsavant](https://baseballsavant.mlb.com) and MLB for making video highlights easily available online, which was essential to collect data on this scale.
 
 Also thanks to Will McNally for KAPAO, all pose detection was done using this algorithm, implemented in python. 
+
 [https://github.com/wmcnally/kapao](https://github.com/wmcnally/kapao)
 
 This is a type of dataset which has not been publicly available before, I hope some use can be found for it.
