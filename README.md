@@ -44,9 +44,13 @@ There are also some other variables which are left over from the pitcher identif
 
 ##### Example_Script.R is an R script which shows how to use this data in some simple examples
 
-Thanks to [baseballsavant.com](https://baseballsavant.com) and MLB for making video highlights easily available online, which was essential to collect data on this scale.
+Thanks to [baseballsavant](https://baseballsavant.mlb.com) and MLB for making video highlights easily available online, which was essential to collect data on this scale.
 
-Also thanks to Will McNally for making KAPAO publicly available, all pose detection was done using this algorithm, implemented in python. 
-https://github.com/wmcnally/kapao
+Also thanks to Will McNally for KAPAO, all pose detection was done using this algorithm, implemented in python. 
+[https://github.com/wmcnally/kapao](https://github.com/wmcnally/kapao)
 
-This is a type of dataset which has not been publicly available before, I hope some use can be found for it
+This is a type of dataset which has not been publicly available before, I hope some use can be found for it.
+
+If you have any suggestions get in touch on Twitter @Pitching_Bot, or find my contact information at [my website](https://www.pitchingbot.com/)
+
+Cameron Grove - 24/12/21
