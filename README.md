@@ -11,7 +11,9 @@ Example_Script.R - A script with examples of how to use the data
 The data can be found at the following dropbox link:
 https://www.dropbox.com/sh/gxxxnqu9c1v0d6w/AAA8Ilsel7YB3_uYn03_k7Vba?dl=0
 
-This is a csv file of about 400 MB.
+The main file is Pitcher_Motion_Data.csv. This is a csv file of about 500 MB.
+
+There is also a companion csv file which contains Statcast data corresponding to the pitches which are included in this dataset.
 
 Data was taken for pitchers/pitch types which had been thrown at least 5 times at Tropicana Field in the 2021 regular season. 5 sample videos were used for each pitch, in each case these were the last thrown by the particular pitcher.
 
