@@ -1,6 +1,10 @@
 # PitcherMotion
 Pose tracking data for baseball pitchers
 
+![](Pitch_Gif.gif)
+
+![](arm_slot_gif.gif)
+
 ##### Contains:
 ReadMe.md - A short overview of the data and how to use it
 
