@@ -129,3 +129,12 @@ animate(fig,fps = 60,nframes = 146)
 
 # This should give you an idea of how to explore this data, let me know if you find anything interesting!
 
+# Read in Statcast csv corresponding to the observed pitches
+
+data_statcast = read.csv("Pitcher_Motion_Data_Statcast_Companion.csv")
+
+# Join pitch speed, movement and location data to the pitcher motion data
+
+data_reliable = data_reliable %>% left_join(select(data_statcast,pitcher,pitch_type,pitch_id,release_speed,release_spin_rate,plate_x,plate_z,pfx_x,pfx_z))
+
+# Now you can look at how measured pitch outcomes can relate to pitcher body positioning
